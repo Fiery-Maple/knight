@@ -36,6 +36,7 @@
 
   --mac-title-bar-height: 20px;
   --sidebar-width: 270px;
+  --select-text-font-color: #000;
 }
 
 .on-focus-mode .md-focus,

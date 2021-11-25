@@ -1,6 +1,8 @@
 :root {
-  --bg-color: #323232;
-  --text-color: #f3f3f3cf;
+  /*--bg-color: #323232;*/
+  --bg-color: #363b40;
+  /*--text-color: #f3f3f3cf;*/
+  --text-color:  #B8BFC6bF;
   --code-block-bg-color: inherit; //#f8f8f8;
 }
 
@@ -217,7 +219,8 @@ sup.md-footnote {
   cursor: pointer;
   width: inherit;
   height: inherit;
-  margin: 4px 0 0;
+  margin-top: 5px;
+  margin-bottom: 4px;
 }
 
 #write > figure:first-child {
@@ -286,6 +289,10 @@ pre {
 
 .CodeMirror-gutters {
   margin-right: 4px;
+}
+
+pre.md-fences {
+  background: #333;
 }
 
 .md-fences {
