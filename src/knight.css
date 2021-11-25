@@ -216,8 +216,8 @@ code,
 .md-fences {
   margin: 0 0 20px;
   font-size: 1em;
-  padding: 0.3em 1em;
-  padding-top: 0.4em;
+  padding: 0.5em 1.5em;
+  padding-top: 2.2em;
 }
 .task-list {
   padding-left: 0;
@@ -342,4 +342,64 @@ p.mathjax-block,
 mark {
   background-color: rgba(255, 255, 0, 0.6);
   color: rgba(0, 0, 0, 0.8);
+}
+
+/*************** code fence *****************/
+
+.CodeMirror div.CodeMirror-cursor {
+  border-left: 1px solid #d0c7e5;
+  z-index: 3;
+}
+.cm-s-typora-default .cm-header,
+.cm-s-typora-default .cm-property {
+  color: #d94f8a;
+}
+.cm-s-inner .cm-keyword {
+  color: #c626dd;
+}
+.cm-s-inner .cm-def {
+  color: #6666f1;
+}
+.cm-s-inner .cm-variable {
+  color: #d0c7e5;
+}
+.cm-s-inner .cm-property {
+  color: #d0c7e5;
+}
+.cm-s-inner .cm-operator {
+  color: #d0c7e5;
+}
+.cm-s-inner .cm-string {
+  color: #a72222;
+}
+.cm-s-inner .cm-builtin {
+  color: #d53c90;
+}
+.cm-s-inner .cm-attribute {
+  color: #7a7aeb;
+}
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+  color: #3838c0;
+}
+.cm-s-inner .cm-link,
+.cm-s-inner.cm-link {
+  color: #7a7aeb;
+}
+.CodeMirror pre {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  color: #a79898;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
 }
