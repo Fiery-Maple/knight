@@ -184,7 +184,8 @@ table td {
   padding: 8px;
   line-height: 1.25rem;
   vertical-align: top;
-  border-top: 1px solid #ddd;
+  /* border-top: 1px solid #ddd; */
+  border: 1px solid #aaa6a6;
 }
 table th {
   font-weight: bold;
@@ -192,16 +193,21 @@ table th {
 table thead th {
   vertical-align: bottom;
 }
+table tr th {
+  border-bottom-width: 3px !important;
+}
 table caption + thead tr:first-child th,
 table caption + thead tr:first-child td,
 table colgroup + thead tr:first-child th,
 table colgroup + thead tr:first-child td,
 table thead:first-child tr:first-child th,
 table thead:first-child tr:first-child td {
-  border-top: 0;
+  /* border-top: 0; */
+  border: 1px solid #aaa6a6;
 }
 table tbody + tbody {
-  border-top: 2px solid #ddd;
+  /* border-top: 2px solid #ddd; */
+  border-top: 2px solid #aaa6a6;
 }
 code {
   padding: 0 0.5em;
@@ -319,11 +325,11 @@ p.mathjax-block,
 
 /** ui for windows **/
 #md-searchpanel {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #8b949e;
 }
 
 #md-searchpanel .btn {
-  border: 1px solid #ccc;
+  border: 1px solid #8b949e;
 }
 
 #md-notification:before {
@@ -331,11 +337,12 @@ p.mathjax-block,
 }
 
 #md-notification {
-  background: #eee;
+  /* background: #0e1117; */
+  background: #21262c;
 }
 
 .megamenu-menu-panel .btn {
-  border: 1px solid #ccc;
+  border: 1px solid #8b949e;
 }
 
 mark {

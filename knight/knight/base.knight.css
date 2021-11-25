@@ -290,7 +290,10 @@ pre {
 }
 
 pre.md-fences {
-  background: #333;
+  /* background: #333; */
+  /* background: #363b3f; */
+  /* background: #161b22; */
+  background: #24292e;
 }
 
 /* .md-fences {
