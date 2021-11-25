@@ -1,0 +1,67 @@
+/*-----------------  code fence ------------------*/
+.CodeMirror div.CodeMirror-cursor {
+  border-left: 1px solid #d0c7e5;
+  z-index: 3;
+}
+.cm-s-typora-default .cm-header,
+.cm-s-typora-default .cm-property {
+  color: #d94f8a;
+}
+.cm-s-inner .cm-keyword {
+  color: #c626dd;
+}
+.cm-s-inner .cm-def {
+  color: #6666f1;
+}
+.cm-s-inner .cm-variable {
+  color: #d0c7e5;
+}
+.cm-s-inner .cm-property {
+  color: #d0c7e5;
+}
+.cm-s-inner .cm-operator {
+  color: #d0c7e5;
+}
+.cm-s-inner .cm-string {
+  color: #d26b6b;
+}
+.cm-s-inner .cm-builtin {
+  color: #f3b3f8;
+}
+.cm-s-inner .cm-attribute {
+  color: #7575e4;
+}
+.cm-s-inner .cm-header,
+.cm-s-inner.cm-header {
+  color: #3838c0;
+}
+.cm-s-inner .cm-link,
+.cm-s-inner.cm-link {
+  color: #7a7aeb;
+}
+.cm-s-inner .cm-atom,
+.cm-s-inner.cm-atom {
+  color: #6758cbd9;
+}
+.cm-s-inner .cm-keyword,
+.cm-s-inner.cm-keyword {
+  color: #aa2bbd;
+}
+.CodeMirror pre {
+  /* Reset some styles that the rest of the page might have set */
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border-width: 0;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  white-space: pre;
+  word-wrap: normal;
+  color: #a79898;
+  z-index: 2;
+  position: relative;
+  overflow: visible;
+  padding: 0;
+}

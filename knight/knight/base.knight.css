@@ -1,9 +1,11 @@
 :root {
   /*--bg-color: #323232;*/
-  --bg-color: #363b40;
+  --bg-color: #303235;
+  /* --bg-color: #0e1117; */
   /*--text-color: #f3f3f3cf;*/
-  --text-color:  #B8BFC6bF;
-  --code-block-bg-color: inherit; //#f8f8f8;
+  /* --text-color:  #B8BFC6bF; */
+  --text-color: #c8d1d9;
+  --code-block-bg-color: inherit; /*#f8f8f8*/
 }
 
 html {
@@ -271,10 +273,6 @@ table.md-table td {
   opacity: 0.3;
 }
 
-.CodeMirror pre {
-  padding: 0 4px;
-}
-
 .CodeMirror-lines {
   padding: 0 0 0 0;
 }
@@ -295,7 +293,7 @@ pre.md-fences {
   background: #333;
 }
 
-.md-fences {
+/* .md-fences {
   font-size: 0.9rem;
   position: relative !important;
   display: block;
@@ -305,7 +303,7 @@ pre.md-fences {
   white-space: pre;
   background: inherit;
   background: var(--code-block-bg-color);
-}
+} */
 
 .md-diagram-panel {
   width: 100%;
@@ -315,7 +313,7 @@ pre.md-fences {
   padding-bottom: 8px;
   overflow-x: auto;
 }
-
+/* 
 .md-fences .CodeMirror.CodeMirror-wrap {
   top: -1.6em;
   margin-bottom: -1.6em;
@@ -331,7 +329,7 @@ pre.md-fences {
 
 .show-fences-line-number .md-fences.mock-cm {
   padding-left: 40px;
-}
+} */
 
 .CodeMirror-line {
   page-break-inside: avoid;

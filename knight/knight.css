@@ -1,5 +1,6 @@
-@import "knight/base.css";
-@import "knight/base-control.css";
+@import "knight/codemirror.knight.css";
+@import "knight/base.knight.css";
+@import "knight/base-control.knight.css";
 
 html,
 body,
@@ -73,7 +74,7 @@ h6 {
   font-weight: bold;
 }
 p {
-  color: #D4D5D6D7;
+  color: #d4d5d6d7;
   font-size: 1rem;
   line-height: 1.75rem;
   margin: 0 0 1.25rem;
@@ -202,21 +203,18 @@ table thead:first-child tr:first-child td {
 table tbody + tbody {
   border-top: 2px solid #ddd;
 }
-code,
-.md-fences {
-  padding: 0.5em;
-  /*background: #f0f0f0;*/
-  border: 1px solid #5e5656ba;
-  padding: 0.1em;
+code {
+  padding: 0 0.5em;
+  /* background: #f0f0f0; */
   font-size: 0.9em;
   margin-left: 0.2em;
   margin-right: 0.2em;
 }
 .md-fences {
-  margin: 0 0 20px;
+  /* margin: 0 0 20px; */
+  border: 1px solid #5e5656ba;
   font-size: 1em;
-  padding: 0.5em 1.5em;
-  padding-top: 2.2em;
+  padding: 0.5em 1em;
 }
 .task-list {
   padding-left: 0;
@@ -343,72 +341,4 @@ p.mathjax-block,
 mark {
   background-color: rgba(255, 255, 0, 0.6);
   color: rgba(0, 0, 0, 0.8);
-}
-
-
-/*-----------------  code fence ------------------*/
-.CodeMirror div.CodeMirror-cursor {
-  border-left: 1px solid #d0c7e5;
-  z-index: 3;
-}
-.cm-s-typora-default .cm-header,
-.cm-s-typora-default .cm-property {
-  color: #d94f8a;
-}
-.cm-s-inner .cm-keyword {
-  color: #c626dd;
-}
-.cm-s-inner .cm-def {
-  color: #6666f1;
-}
-.cm-s-inner .cm-variable {
-  color: #d0c7e5;
-}
-.cm-s-inner .cm-property {
-  color: #d0c7e5;
-}
-.cm-s-inner .cm-operator {
-  color: #d0c7e5;
-}
-.cm-s-inner .cm-string {
-  color: #D26B6B;
-}
-.cm-s-inner .cm-builtin {
-  color: #f3b3f8;
-}
-.cm-s-inner .cm-attribute {
-  color: #7575E4;
-}
-.cm-s-inner .cm-header,
-.cm-s-inner.cm-header {
-  color: #3838c0;
-}
-.cm-s-inner .cm-link,
-.cm-s-inner.cm-link {
-  color: #7a7aeb;
-}
-.cm-s-inner .cm-atom, 
-.cm-s-inner.cm-atom {
-    color: #6758cbd9;
-}
-.cm-s-inner .cm-keyword,
-.cm-s-inner.cm-keyword {
-    color: #aa2bbd;
-}
-.CodeMirror pre {
-  /* Reset some styles that the rest of the page might have set */
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
-  border-radius: 0;
-  border-width: 0;
-  background: transparent;
-  font-family: inherit;
-  font-size: inherit;
-  margin: 0;
-  white-space: pre;
-  word-wrap: normal;
-  color: #a79898;
-  z-index: 2;
-  position: relative;
-  overflow: visible;
 }

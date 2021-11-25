@@ -17,7 +17,8 @@
   --search-select-text-color: #fff;
 
   --heading-char-color: #ddd;
-  --color-popover-bg-color: #fafafa;
+  /* --color-popover-bg-color: #fafafa; */
+  --color-popover-bg-color: #555;
 
   --control-text-color: var(--text-color);
   --control-text-hover-color: var(--text-color);
