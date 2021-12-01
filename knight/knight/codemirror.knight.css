@@ -58,7 +58,7 @@
   font-size: inherit;
   margin: 0;
   white-space: pre;
-  word-wrap: normal;
+  overflow-wrap: break-word;
   color: #a79898;
   z-index: 2;
   position: relative;

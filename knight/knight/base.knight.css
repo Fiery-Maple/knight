@@ -48,7 +48,7 @@ a:hover {
   height: auto;
   width: inherit;
   word-break: normal;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   position: relative;
   padding-bottom: 70px;
   white-space: pre-wrap;
